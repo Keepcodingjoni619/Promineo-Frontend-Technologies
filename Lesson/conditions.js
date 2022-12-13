@@ -52,7 +52,7 @@ if(a == 5){
 // }
 
 
-var costOfEggs = 2.12;
+var costOfEggs = 4.00;
 
 var numberOfDozensOfEggsToPurchase = 0;
 
