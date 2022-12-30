@@ -98,6 +98,8 @@ function average(arr1,arr2){
 console.log("The total sum : ", greaterThan(arr1))
 console.log("Compare average: ", average(arr1,arr2))
 
+var hotOutside = true;
+var moneyInThePocket = 30.5;
 function willBuyDrink(isHotOutside, moneyInPocket)
 {
 if((isHotOutside) && (moneyInPocket > 10.50))
@@ -106,4 +108,4 @@ if((isHotOutside) && (moneyInPocket > 10.50))
 }else{
     return false;
 }}
-console.log("Drink can be buy : ",willBuyDrink(hotOutside, moneyInPocket));
+console.log("Drink can be buy : ",willBuyDrink(hotOutside, moneyInThePocket));
