@@ -111,4 +111,4 @@ function newArray(num1, num2){
 let num1 = [2,3,6,9,20];
 let num2 = [10,3,2]
 
-console.log("is num1 greater than 100", arrayNumbers(arr))
+console.log("is num1 greater than 100", arrayNumbers());
