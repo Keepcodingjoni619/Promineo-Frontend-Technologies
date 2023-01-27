@@ -60,7 +60,7 @@ class Card {
       return this.cards.length;
     }
     shuffle() {
-      
+  
       for (let i = this.numberOfCards - 1; i > 0; i--) {
         const newIndex = Math.floor(Math.random() * (this.numberOfCards));
         const oldValue = this.cards[newIndex];
